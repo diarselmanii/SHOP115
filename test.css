@@ -1,0 +1,118 @@
+
+  
+  .wrapper {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin: -8% 0%;
+    font-family: Montserrat;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .outer {
+    position: relative;
+    background: rgba(255, 255, 255, 0.856);
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    /* align-items: center; */
+    margin: 10% 20%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 20px 20px rgb(0, 0, 0,0.30);
+  }
+  
+  #imgCard {
+    position: absolute;
+    top: -10px;
+    right: 2px;
+    z-index: 0;
+    animation-delay: 0.5s;
+  }
+  
+  .content {
+    animation-delay: 0.3s;
+    position: absolute;
+    left: 20px;
+    z-index: 3;
+    
+  }
+  
+  .h1Card {
+    color: #111;
+  }
+  
+  .pCard {
+    width: 400px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #aaa;
+    margin: 20px 0;
+    
+  }
+  
+  .bg {
+    display: inline-block;
+    color: #fff;
+    background: cornflowerblue;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: .7em;
+    margin: 2%;
+  }
+  .buttonCard {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    
+    
+    
+  }
+
+  .cart-icon {
+    padding-right: 8px;
+    
+  }
+  
+  .footerCard {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+@media screen and (max-width:850px) {
+  .wrapper{ 
+  width: 840px;
+  flex-direction: column;
+  margin: 0% 0%;
+  }
+  .outer{
+  height: 450px;
+  width: 80%;
+  overflow: hidden;
+  display: flex;
+  /* align-items: center; */
+  margin: 10% 10%;
+}
+  #imgCard {
+
+  top: 90px;
+  }
+  .buttonCard {
+    margin-top: 100px;
+    }
+}
+
+#price{
+  padding: 10px 20px;
+}
+#add{
+  padding: 20px 30px;
+  background-color: #ffc107;
+  border: none;
+}
+#add:hover{
+  cursor: pointer;
+  background-color: #be8f02;
+}

@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/wallpaperjordan.jpg);
+    background-size: cover;
+    font-size: 20px;
+    color: aliceblue;
+}
+form {
+    margin: 10% 15%;
+    padding: 40px 50px;
+    margin-bottom: 4%;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-radius: 12px;
+    color: black;
+}
+
+#email,#password{
+    width: 300px;
+    height: 40px;
+    margin: 1.7% 32%;
+    padding: 20px 2px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+#email:hover{
+    background-color: rgb(31, 30, 30);
+    transition: 0.7s ease ;
+}
+#password:hover{
+    background-color: rgb(31, 30, 30);
+    transition: 0.7s ease ;
+}
+#submit {
+    width: 25%;
+    height: 44px;
+    margin: 4% 37.5%;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+}
+#submit:hover{
+    background-color: rgb(97, 134, 182);
+    transition: 0.5s ease ;
+    cursor: pointer;
+}
+label{
+    font-size: 16px;
+    margin: 30px 0px;
+}
+h2{
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+#typeofLogin{
+    margin-top: 10px;
+    margin-left: 75%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#typeofLogin:hover{
+    background-color: rgb(97, 134, 182);
+    transition: 0.5s ease ;
+    cursor: pointer;
+}
+@media screen and (max-width:850px) {
+body{
+   background-size: 850px;
+   background-repeat: no-repeat;
+   height: 300px;
+}
+form{
+    margin: 4% 5%;
+}
+
+#submit{
+    margin: 4% 40%;
+}
+#email,#password{
+    margin: 1.7% 29%;
+}
+#typeofLogin{
+margin-left: 77%;
+}
+}
+

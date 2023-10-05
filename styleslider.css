@@ -1,0 +1,14 @@
+
+
+.show-content{
+    display: block;
+}
+
+.hidden-content{
+    display: none;
+}
+#jordanlogo{
+    width: 300px;
+    height: 200px;
+    margin: 2% 50%;
+}
